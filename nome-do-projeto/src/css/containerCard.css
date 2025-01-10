@@ -1,0 +1,12 @@
+.span-links-projeto a{
+  text-decoration: none;
+  border-bottom: 3px solid blue;
+}
+.span-links-projeto a:hover{
+  color: white;
+}
+.container-aside{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}

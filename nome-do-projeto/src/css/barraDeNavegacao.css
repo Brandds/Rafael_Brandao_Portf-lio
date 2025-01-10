@@ -1,0 +1,6 @@
+#links-navBar{
+  border-bottom: 1px solid transparent;
+}
+#links-navBar:hover{
+ border-bottom: 1px solid beige;
+}

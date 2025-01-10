@@ -1,0 +1,64 @@
+.section{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly;
+  padding: 100px;
+  box-sizing: border-box;
+}
+.article-Titulo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:55%;
+  justify-content: center;
+}
+.article-Titulo h4{
+  width: 700px;
+}
+#titulo{
+  font-size: 90px;
+}
+#subTitulo{
+  font-size: 25px;
+}
+.article-Imagem{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.minhaImagem {
+  width: 100%; /* Garante que a imagem ocupe 100% do espaço disponível */
+  max-width: 400px; /* Limita a largura máxima */
+  height: auto; /* Mantém a proporção da imagem */
+  max-height: 700px; /* Limita a altura máxima */
+  object-fit: cover; /* Ajusta a imagem sem distorcer */
+  border-radius: 30px;
+}
+.div-btn-icons-informacoes{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.div-btn-icons-informacoes a{
+  padding: 10px;
+  background-color:#222222 ;
+  border-radius: 30px;
+  border: 1px solid transparent;
+}
+.div-btn-icons-informacoes a:hover{
+  border-color: rgb(0, 0, 201);
+}
+
+@media (max-width: 768px) {
+  .article-Titulo, .article-Imagem {
+    flex: 1 1 100%; /* Ocupa 100% da largura disponível */
+    text-align: center;
+  }
+
+  .minhaImagem {
+    max-width: 90%; /* Limita a largura da imagem em dispositivos menores */
+  }
+}

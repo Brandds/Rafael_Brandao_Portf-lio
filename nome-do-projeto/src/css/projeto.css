@@ -1,0 +1,5 @@
+.container-projeto{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 50% 30%;
+}
