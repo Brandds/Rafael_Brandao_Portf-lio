@@ -2,6 +2,9 @@
   height: 100%;
   min-height: 100vh;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  
 }
 .article-Informacoes{
   padding-left: 120px;
@@ -16,4 +19,26 @@
 .article-projeto{
   width: 100%;
   padding-left: 120px;
+}
+
+@media (max-width: 970px){
+  .section-SessaoSecundario{
+    align-items: center ;
+  }
+  .article-Informacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .article-projeto{
+    padding-left: 70px;
+  }
+}
+@media (max-width: 900px){
+  .article-projeto{
+    padding-left: 0PX;
+  }
 }

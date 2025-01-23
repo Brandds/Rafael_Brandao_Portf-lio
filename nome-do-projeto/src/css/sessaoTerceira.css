@@ -1,0 +1,43 @@
+.section-terceira{
+ display: flex;
+ margin-top: 80px;
+ width: 100%;
+ min-height: 50vh;
+ height: 100%;
+ flex-wrap: wrap;
+ padding: 20px;
+}
+
+.titulo-Sessao{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.informacao-Sessao{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: start;
+  padding: 40px;
+}
+
+.informacao-Sessao a{
+  text-decoration: none;
+}
+
+.informacao-Sessao a:hover{
+  color: aliceblue;
+  border-bottom: 1px solid aliceblue;
+}
+
+@media (max-width: 900px){
+  .section-terceira{
+    flex-direction: column;
+    align-items: center;
+  }
+  .informacao-Sessao{
+    width: 100%;
+    
+  }
+}

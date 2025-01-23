@@ -1,5 +1,18 @@
-.container-projeto{
-  display: grid;
+.container-projeto {
+  display: flex;
   width: 100%;
-  grid-template-columns: 50% 30%;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 900px){
+.container-projeto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
 }

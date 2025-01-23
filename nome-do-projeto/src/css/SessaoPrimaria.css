@@ -58,6 +58,16 @@
     text-align: center;
   }
 
+}
+
+@media (max-width: 970px){
+  .section{
+    gap: 40px;
+  }
+  .article-Titulo, .article-Imagem {
+    flex: 1 1 100%; /* Ocupa 100% da largura disponível */
+    text-align: center;
+  }
   .minhaImagem {
     max-width: 90%; /* Limita a largura da imagem em dispositivos menores */
   }
